@@ -23,8 +23,8 @@ img {
 
 body {
   margin: 0;
-  background-image: url("/images/bg-pattern-top-mobile.svg"),
-    url("/images/bg-pattern-bottom-mobile.svg");
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: left top, right bottom;
   font-family: var(--main-font);
@@ -132,8 +132,9 @@ body {
     max-width: 1200px;
     align-items: center;
     margin: 0 auto;
-    background-image: url("/images/bg-pattern-top-desktop.svg"),
-      url("/images/bg-pattern-bottom-desktop.svg");
+    background-image: url("../images/bg-pattern-top-desktop.svg"),
+      url("../images/bg-pattern-bottom-desktop.svg");
+    max-height: 100vh;
   }
 
   .header {
